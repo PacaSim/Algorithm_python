@@ -31,3 +31,7 @@ def solution(arr, divisor):
 
 # 다른 사람 풀이
 def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or [-1]
+
+# 핸드폰 번호 가리기
+def solution(phone_number):
+    return "*"*(len(phone_number)-4) + phone_number[-4:]
